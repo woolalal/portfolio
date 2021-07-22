@@ -1,0 +1,209 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Landing */
+#landing
+{
+    background: url(../images/1947484.jpg);
+    padding: 22%;
+    color: white;
+    
+}
+
+.landing-container
+{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    
+    
+}
+
+.landing-container h5
+{
+    font-size: 1.5rem;
+}
+
+.landing-container p
+{
+    font-size: 1rem;
+}
+
+.landing-container button
+{
+    padding: 10px 20px;
+    margin: 1rem;
+    font-size: 1rem;
+    background-color: #485a85;
+    color: #FFF;
+    border: none;
+    cursor: pointer;
+}
+
+.landing-container button:hover
+{
+    color: black;
+    transition: 0.5s ease;
+}
+
+/* Project */
+#project
+{
+    padding: 5% 7%;
+    text-align: center;
+}
+
+#project h4
+{
+    padding: 4rem 0;
+}
+
+.project-container
+{
+    padding: 3%;
+    
+}
+
+.project-container h5
+{
+    margin: 1rem;
+}
+
+.todolist-img
+{
+    width: 70%;
+}
+
+.rps-img
+{
+    width: 60%;
+}
+
+.weather-img
+{
+    width: 70%;
+}
+
+.project-container button
+{
+    border: 1px solid black;
+    padding: 8px 20px;
+    background-color: #FFF;
+    color: black;
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.project-container button:hover
+{
+    background-color: black;
+    color: white;
+    transition: 0.5s ease;
+}
+
+.seperator
+{
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
+    width: 8%;
+    margin: auto;
+}
+
+/* Resume */
+#resume
+{
+    padding: 5%;
+}
+
+#resume h4
+{
+    margin: 0 0 2rem;
+    text-align: center;
+}
+
+.resume-container
+{
+    width: 50%;
+    margin: 70px auto 100px auto;
+    line-height: 1.5;
+    text-align: left;
+    
+}
+
+.resume-container h5
+{
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.programmer-img
+{
+    float: left;
+    margin-right:180px;
+}
+
+.coding-img
+{
+    float: right;
+}
+
+.projectexp
+{
+    width: 70%;
+}
+
+/* Footer */
+#footer
+{
+    background-color: #485a85;
+    color: white;
+    padding: 3%;
+    text-align: center;
+}
+
+#footer h4
+{
+    margin: 0 0 1.5rem;
+}
+#footer a
+{
+    text-decoration: none;
+    color: #d15749;
+}
+
+.socials
+{
+    margin: 0 0 2rem;
+}
+
+@media(max-width: 700px)
+{
+    .programmer-img
+    {
+        margin-left: 3rem;
+        display: block;
+    }
+
+    .resume-container ul
+    {
+        display: inline-block;
+        margin-top: 1rem;
+    }
+
+    .coding-img
+    {
+        margin-left: 3rem;
+        float: left;
+    }
+
+    .projectexp
+    {
+        margin-top: 5rem;
+        width: 100%;
+    }
+}
