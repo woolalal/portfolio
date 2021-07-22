@@ -9,7 +9,7 @@
 /* Landing */
 #landing
 {
-    background: url(../images/1947484.jpg);
+    background: url(../images/1947484.jpg) -15rem 0;
     padding: 22%;
     color: white;
     
@@ -203,7 +203,14 @@
 
     .projectexp
     {
-        margin-top: 5rem;
         width: 100%;
+    }
+
+    #landing
+    {
+        background: url(../images/1947484.jpg) -60rem 0;
+        padding: 22%;
+        color: white;
+        
     }
 }

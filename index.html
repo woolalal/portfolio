@@ -16,20 +16,22 @@
 
     <link rel="stylesheet" href="css/style.css">
 
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 </head>
 <body>
     <section id="landing">
         <div class="landing-container">
             <h5>&lt;CEDRIC WOO /&gt;</h5>
             <p>Project Portfolio</p>
-            <button>Technologies</button>
             <a href="#project"><button>Personal Projects</button></a>
+            <a href="#resume"><button>Technologies</button></a>
             
             
         </div>
     </section>
 
-    <section id="project">
+    <section id="project" data-aos="fade-up">
         <h4>Personal Projects</h4>
         <div class="row">
             <div class="col-lg-6 col-md-6 project-container">
@@ -54,13 +56,13 @@
                 <img src="images/weather.png" alt="weather-img" class="weather-img">
                 <hr>
                 <p>My first project with ReactJS. Here I worked with the Weather API by using async Javascript and I also familiarized myself with components, props and hooks like useState and useEffect. </p>
-                <a href="https://woolalal.github.io/rps/" target="_blank"><button class="livewebsite-btn">Website</button></a>
-                <a href="https://github.com/woolalal/rps" target="_blank"><button class="github-btn">Github</button></a>  
+                <a href="https://woolalal.github.io/weatherapp/" target="_blank"><button class="livewebsite-btn">Website</button></a>
+                <a href="https://github.com/woolalal/weatherapp" target="_blank"><button class="github-btn">Github</button></a>  
             </div>
         </div>
     </section>
     <hr class="seperator">
-    <section id="resume">
+    <section id="resume" data-aos="fade-up">
         <h4>What I can do.</h4>
         <div class="resume-container">
             <h5>Skills & Technologies</h5>  
@@ -97,5 +99,15 @@
         </div>
         <p>© 2021 Cedric Woo</p>
     </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+          AOS.init(
+              {
+                  offset: 400,
+                  duration: 1000
+              }
+          );
+      </script>
 </body>
 </html>
