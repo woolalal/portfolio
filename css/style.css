@@ -89,6 +89,11 @@
     width: 70%;
 }
 
+.foodrecipe-img
+{
+    width: 72%;
+}
+
 .project-container button
 {
     border: 1px solid black;
