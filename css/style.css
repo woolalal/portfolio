@@ -9,7 +9,7 @@
 /* Landing */
 #landing
 {
-    background: url(../images/1947484.jpg) -13rem 0;
+    background: url(../images/1947484.jpg) -14rem 0;
     padding: 22%;
     color: white;
     
@@ -92,6 +92,11 @@
 .foodrecipe-img
 {
     width: 72%;
+}
+
+.bmicalculator-img
+{
+    width: 70%;
 }
 
 .project-container button
